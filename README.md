@@ -8,9 +8,11 @@ Can be run by simply calling lottery.py from within ipython. Parameters (hardcod
 -min_unique is the total number of lotteries a person can go through guaranteed without a rematch, a value of x means that x-1 previous matchups will be stored 
 
 RUNTIME 
+
 -make sure the save_dir is pointed at the correct path and that responses.csv of the most recent lottery exists in that path, as well as lottery_info.pkl (if it exists) 
 -just run lottery.py 
 -you will have the option to check the generated group before continuing, and can continue generating a possibly better group or can publish (save all important variables and send emails) 
 
 NOTES 
+
 -if you are running overtime too much, try reducing min_unique
