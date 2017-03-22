@@ -21,3 +21,7 @@ RUNTIME
 NOTES 
 
 -if you are running overtime too much, try reducing min_unique
+
+Here's a visualization of an example cost matrix - the main optimization variable in the algorithm. Our method aims to choose groups to minimize the total costs (darker squares = higher costs) according to our network. As expected, the self-cost is infinite since you can't group with yourself, and the values are symmetric about the diagonal.
+
+![costs](visualmatrix.png?raw=true "Cost Matrix Visualization")
